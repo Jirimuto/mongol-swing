@@ -171,7 +171,7 @@ public class MSwingDemo extends JFrame {
 	    p.add(lblTxt7);
 
 		context =  "ᠮᠠᠯ ᠰᠦᠷᠦᠭ ᠦᠨ ᠪᠣᠳᠠᠲᠠᠢ ᠨᠢᠭᠡ ᠣᠨᠴᠠᠯᠢᠭ ᠪᠣᠶᠣ  " ;
-		JTextField txtField1 = new JTextField( context, 29 );
+		MTextField txtField1 = new MTextField( context, 29 );
 		txtField1.setFont(new Font("Mongolian White", Font.PLAIN, 16));
 		txtField1.setBorder(new EtchedBorder(EtchedBorder.LOWERED));
 	    gbc.gridx = col+1;
@@ -213,7 +213,7 @@ public class MSwingDemo extends JFrame {
 	    p.add(lblTxt8);
 
 		context =  "ᠮᠠᠯ ᠰᠦᠷᠦᠭ ᠦᠨ ᠪᠣᠳᠠᠲᠠᠢ ᠨᠢᠭᠡ ᠣᠨᠴᠠᠯᠢᠭ ᠪᠣᠶᠣ ᠮᠠᠯᠵᠢᠬᠤ ᠠᠮᠢᠳᠤᠷᠠᠯ  " ;
-		JTextArea txtField4 = new JTextArea( context, 3, 20 );
+		MTextArea txtField4 = new MTextArea( context, 3, 20 );
 		txtField4.setFont(new Font("Mongolian White", Font.PLAIN, 16));
 		txtField4.setBorder(new EtchedBorder(EtchedBorder.LOWERED));
 	    gbc.gridx = col+1;

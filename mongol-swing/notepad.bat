@@ -1,0 +1,1 @@
+java -Xms64m -Xmx512m -classpath mnglswing.jar com.mongol.utils.Notepad
